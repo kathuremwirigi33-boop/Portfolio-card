@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Info Card</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #7dd3fc, #a5b4fc);
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      
+    }
+
+    .card {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      text-align: center;
+      border: 3px solid transparent;
+      animation: glow 3s infinite alternate;
+    }
+
+    @keyframes glow {
+      0% { border-color: #60a5fa; }
+      100% { border-color: #818cf8; }
+    }
+
+    h1 {
+      margin: 0;
+      color: #1e3a8a;
+    }
+
+    p {
+      color: #334155;
+      margin-top: 10px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Nancy Kathure</h1>
+    <p>Frontend Developer</p>
+    <p>💻 Passionate about clean and creative web design</p>
+  </div>
+</body>
+</html>
