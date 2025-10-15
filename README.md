@@ -8,7 +8,7 @@ This project shows my skills in creating clean and responsive web components.
 ## 🔍 Demo & Live Link
 
 Check out the live version of this project:  
-[Live Demo](https://kathuremwirigi33-boop.github.io/Portfolio-card/)  
+[Live Demo](https://kathuremwirigi33-boop.github.io/Portfolio-card)  
 
 ---
 
